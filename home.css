@@ -1,0 +1,105 @@
+body{
+    background-color: #ccc;
+    font-family: sans-serif;
+    margin: 0;
+}
+.hero{
+    background-image: url(salesianos.jfif); /* inserir imagem */
+    height: 430px; /* height é o tamanho da imagem*/
+    background-size: cover; /* size duplica a imagem e o cover deixa uma só*/
+    background-position: right center; /* é a posição da imagem*/
+
+}
+.hero-content{
+    margin: 50px auto 0; /* valores no sentido horario */
+    width: 80%; /* width é a largura da caixa */
+    text-align: center;
+    color: #0202b5;
+
+}
+.hero-content h1{
+    font-size: 56px;
+
+    text-shadow: 10px 10px 10px black; /* é a sombra da letra, 
+    Primeiro valor= deslocamento horizontal.
+    Segundo valor= deslocamento vertical.
+    Terceiro valor= desfoque da sombra.*/
+
+    text-transform: uppercase; /* transforma tudo em maiusculo*/
+}
+.hero-content p{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7); /* 0.7 (alpha) é a transparencia da cor*/
+    font-size: 18px;
+    display: inline-block; /* ajusta a caixa de acordo com texto*/
+    padding: 10px; /* tamanho do bloco*/
+    border-bottom: blue solid; /* linha branca */
+}
+
+.hero nav ul{
+    margin: 20px 8% 0 0;
+    text-align: right;
+
+}
+.hero nav li{
+    display: inline-block;
+    list-style-type: none; /* tirar os pontos da lista */
+    border: 1px solid #0202b5;
+    margin-left: 16px; /* distancia das caixas */
+
+}
+.hero nav a{
+    background-color: rgba(0, 0, 0, .2);
+    padding: 16px;
+    display: block;
+    color: #0202b5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px; /* para aumentar o espaço entre as letras */
+
+}
+/* hover é a passagem de mouse*/
+.hero nav a:hover{
+    background-color: rgba(0, 0, 0, .5);
+    
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+
+}
+section{
+    padding-top: 32px;
+}
+article{
+    background-color: #fff;
+    padding: 16px;
+    margin-bottom: 32px; /* para colocar espaço entre os articles*/
+
+}
+article h2{
+    border-bottom: 2px solid #0202b5;
+    background-color: #ccc;
+    padding: 10px;
+    margin-top: 0; 
+}
+
+.btn{
+    background-color: #ff6a6a;
+    display: block; /* para se comportar como um bloco*/
+    padding: 12px 16px; /* largura da caixa*/
+    border-radius: 6px; /* para aredondar a borda */
+    margin-left: auto;
+    width: fit-content; /* ajustar a caixa ao conteudo*/
+}
+.rodape{
+    color: #2200fff2;
+    background-color: #f27171;
+    text-align: center;
+    padding: 2px;
+    font-size: 20px;
+}
+
